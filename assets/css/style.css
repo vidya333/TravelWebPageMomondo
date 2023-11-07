@@ -134,6 +134,13 @@ header .nav-link:hover{
         font-size: 12.5px;
     }
 }
+@media screen and (max-width:992px) {
+    .myrow{
+        width: 90%;
+        text-align: center;
+        padding-left:15%;
+    }
+}
 @media screen and (max-width:768px) {
     .banner{
         background: url(../img/banner3.gif);
@@ -180,18 +187,24 @@ header .nav-link:hover{
         width: 90%;
     }
 }
-@media screen and (max-width:399px) {
+@media screen and (max-width:406px) {
     .lastrow {
        font-size: 11px;
     }
     .lastrow select {
         font-size: 11px !important;
      }
+     .banner .container form .searchdiv{
+        top:314px !important;
+    }
 }
 @media screen and (max-width:380px) {
     .banner button{
         width: 110px;
         font-size: 15px;
+    }
+    .banner .container form .searchdiv{
+        top:312px !important;
     }
 }
 @media screen and (max-width:350px) {
@@ -202,11 +215,21 @@ header .nav-link:hover{
     .banner .lastrow .dis{
         display: none;
     }
+    .block{
+        height: 130px;
+        width: 130px;
+        font-size: 12px;
+    }
 }
 @media screen and (max-width:320px) {
     .banner button{
         width: 90px;
         font-size: 13px;
+    }
+    .block{
+        height: 120px;
+        width: 120px;
+        font-size: 11px;
     }
 }
 @media screen and (max-width:290px) {
