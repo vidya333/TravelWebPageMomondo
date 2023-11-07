@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
 /* header starts------------------------------------------------------------------------------------------------------ */
 .bg-blue{
     background-color: #161638 !important;
@@ -81,11 +82,10 @@ header .nav-link:hover{
     min-height: 300px;
     color: #fff;
 }
-.block b{line-height: 20px;}
 .block{
     height: 150px;
     width: 160px;
-    margin-left:3px;
+    /* margin-left:3px; */
     background-color: hsl(0, 0%, 0%,0.7);
     font-size: 13.5px;
     cursor: pointer;
@@ -179,6 +179,14 @@ header .nav-link:hover{
         width: 90%;
     }
 }
+@media screen and (max-width:399px) {
+    .lastrow {
+       font-size: 11px;
+    }
+    .lastrow select {
+        font-size: 11px !important;
+     }
+}
 @media screen and (max-width:380px) {
     .banner button{
         width: 110px;
@@ -189,6 +197,9 @@ header .nav-link:hover{
     .banner button{
         width: 100px;
         font-size: 15px;
+    }
+    .banner .lastrow s{
+        display: none;
     }
 }
 @media screen and (max-width:320px) {
