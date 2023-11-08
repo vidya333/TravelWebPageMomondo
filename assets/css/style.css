@@ -181,7 +181,13 @@ header .nav-link:hover{
         text-align: center;
         padding-left:15%;
     }
-    
+    .fun{
+        background: linear-gradient(rgba(0, 0, 0, 0.7),rgb(0,0,0,0.1)),url(../img/road2.jpg);
+        width: 100%;
+        background-size: 100% 100%;
+        height: auto;
+        padding: 30px 0px !important;
+    }
 }
 @media screen and (max-width:768px) {
     .banner{
@@ -214,8 +220,6 @@ header .nav-link:hover{
     }
     #link{display: none;}
     #end{float: inline-end;}
-    
-
 }
 @media screen and (max-width:576px) {
     .banner .container form .searchdiv{
@@ -230,6 +234,13 @@ header .nav-link:hover{
     .col-5 {
         width: 90%;
     }
+    .fun{
+        background:linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url(../img/road.jpg);
+        width: 100%;
+        background-size: 100% 100%;
+        height: auto;
+        padding: 30px 0px !important;
+    }
 }
 @media screen and (max-width:406px) {
     .lastrow {
@@ -239,7 +250,7 @@ header .nav-link:hover{
         font-size: 11px !important;
      }
      .banner .container form .searchdiv{
-        top:314px !important;
+        top:312px !important;
     }
 }
 @media screen and (max-width:380px) {
@@ -251,13 +262,18 @@ header .nav-link:hover{
         top:312px !important;
     }
 }
+@media screen and (max-width:367px) {
+    .banner .lastrow .dis{
+        display: none;
+    }
+    .banner .container form .searchdiv{
+        top:312px !important;
+    }
+}
 @media screen and (max-width:350px) {
     .banner button{
         width: 100px;
         font-size: 15px;
-    }
-    .banner .lastrow .dis{
-        display: none;
     }
     .block{
         height: 130px;
