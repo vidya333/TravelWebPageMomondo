@@ -19,6 +19,9 @@ color: #7EE73F;
 header .nav-link:hover{
     color: #DF523C !important;
 }
+.header .navbar-toggler{
+    border: wheat !important;
+}
 /* banner starts ---------------------------------------------------------------------------------------------------- */
 .banner{
     background: url(../img/wallpaperflare-cropped.jpg);
@@ -74,6 +77,12 @@ header .nav-link:hover{
 .banner .search:hover{
     background-color: hsl(255, 38%, 49%,0.7);
 }
+.banner form select{
+    font-size: 14px !important ;
+}
+.banner .lastrow .span{
+    cursor: pointer;
+}
 /* ---------------------------------------------Fun Section Starts ----------------------------------------------------- */
 .fun{
     background: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url(../img/Arizona\ dessert\ mountainjpg.jpg);
@@ -85,17 +94,38 @@ header .nav-link:hover{
 .block{
     height: 150px;
     width: 160px;
-    /* margin-left:3px; */
     background-color: hsl(0, 0%, 0%,0.7);
     font-size: 13.5px;
     cursor: pointer;
     border-radius: 6px;
 }
 .fun .block:hover{background: hsl(255, 38%, 49%,0.6);}
-
+.fun .myrow{margin-top: 9px;}
+/* ----------------------------------------newsletter section starts-------------------------------------------------- */
+.newsletter{
+    background: linear-gradient(rgba(32, 11, 73, 0.6),rgba(53, 20, 121, 0.6)),url(../img/air.jpg);
+    width:100%;
+    min-height: 300px;
+    background-size: 100% 100%;
+    color: #fff;
+}
+.newsletter .email input{
+    width: 73%;
+    padding: 6px 0px;
+    border: 2px solid #fff;
+}
+.newsletter .email input::placeholder{
+    color: #fff;
+    padding-left: 6px;
+}
+.newsletter .email button:hover{
+    background: #644dab;
+    border: 0px #644dab;
+    color: #fff;
+}
 
 /* ============================================== RESPONSIVE DIMENSIONS =============================================== */
-
+/* ==================================================================================================================== */
 @media screen and (max-width:1200px) {
     .heading{
         padding-top: 50px;
@@ -112,7 +142,7 @@ header .nav-link:hover{
         width: 90%;
     }
     .banner .container form .searchdiv{
-        top:45px !important;
+        top:44px !important;
     }
     .py-5{
         padding-top: 7px !important;
@@ -122,8 +152,8 @@ header .nav-link:hover{
         font-size: 13.5px;
     }
     .banner form select{
-        font-size: 13.5px ;
-        padding: 8px;
+        font-size: 13.5px !important;
+        padding: 7px !important;
     }
     .lastrow  select{
         font-size: 13.5px !important;
@@ -133,6 +163,17 @@ header .nav-link:hover{
         width: 140px;
         font-size: 12.5px;
     }
+    .newsletter .email input{
+        width: 100%;
+    }
+    .newsletter .email button{
+        width: 100%;
+    }
+    .fs-3{
+        padding-top: 20px;
+        font-size: calc(1.1rem + .6vw)!important;
+    }
+    
 }
 @media screen and (max-width:992px) {
     .myrow{
@@ -140,6 +181,7 @@ header .nav-link:hover{
         text-align: center;
         padding-left:15%;
     }
+    
 }
 @media screen and (max-width:768px) {
     .banner{
@@ -172,10 +214,12 @@ header .nav-link:hover{
     }
     #link{display: none;}
     #end{float: inline-end;}
+    
+
 }
 @media screen and (max-width:576px) {
     .banner .container form .searchdiv{
-        top:320px !important;
+        top:317px !important;
     }
     .heading{
         font-size: 29px !important;
@@ -220,8 +264,11 @@ header .nav-link:hover{
         width: 130px;
         font-size: 12px;
     }
+    .fun .row>*{
+        padding-right: 0px;
+    } 
 }
-@media screen and (max-width:320px) {
+@media screen and (max-width:321px) {
     .banner button{
         width: 90px;
         font-size: 13px;
@@ -230,6 +277,9 @@ header .nav-link:hover{
         height: 120px;
         width: 120px;
         font-size: 11px;
+    }
+    .banner .container form .searchdiv{
+        top:307px !important;
     }
 }
 @media screen and (max-width:290px) {
