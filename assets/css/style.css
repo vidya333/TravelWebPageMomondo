@@ -131,10 +131,47 @@ header .nav-link:hover{
     color: rgb(243, 185, 60)
 }
 .destination .card:hover{
-    background-color: hsla(0, 0%, 100%, 0.9);
+    background-color: hsla(0, 0%, 100%, 0.7);
+}
+/*  ESTIMATE SECTION STARTS ------------------------------------------------------------------------------------------- */
+.bg-violet{
+    background-color: #654dad;
+}
+.estimate{
+    width: 100%;
+    min-height: 250px;
+}
+.estimate p{
+    margin-bottom: 0px;
+}
+.estimate .row > *{
+    padding-left: 0px;
+}
+.estimate .but:hover{
+    color: #fff;
+}
+
+.blog hr{
+    margin: 6px 0px;
+}
+.arrow{
+ display: none;
+}
+.image:hover .arrow{
+    display: block !important;
+    background-color: hsl(0, 0%, 0%,0.9);
+    cursor: pointer;
 }
 /* ============================================== RESPONSIVE DIMENSIONS =============================================== */
 /* ==================================================================================================================== */
+@media  screen and (max-width:1344px) {
+    .coliseum{
+        display: none;
+    }
+    .image:hover .arrow{
+        display: none !important;
+    }
+}
 @media screen and (max-width:1200px) {
     .heading{
         padding-top: 50px;
@@ -197,6 +234,9 @@ header .nav-link:hover{
         height: auto;
         padding: 30px 0px !important;
     }
+    .but{
+        width: 85.5%;
+    }
 }
 @media screen and (max-width:768px) {
     .banner{
@@ -229,6 +269,7 @@ header .nav-link:hover{
     }
     #link{display: none;}
     #end{float: inline-end;}
+   
 }
 @media screen and (max-width:576px) {
     .banner .container form .searchdiv{
@@ -244,11 +285,14 @@ header .nav-link:hover{
         width: 90%;
     }
     .fun{
-        background:linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url(../img/road.jpg);
+        background:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url(../img/road.jpg);
         width: 100%;
         background-size: 100% 100%;
         height: auto;
         padding: 30px 0px !important;
+    }
+    .but{
+        width: 100%;
     }
 }
 @media screen and (max-width:406px) {
