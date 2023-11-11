@@ -4,6 +4,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    transition: all 0.6s ease !important;
 }
 
 /* header starts------------------------------------------------------------------------------------------------------ */
@@ -213,6 +214,7 @@ header .nav-link:hover{
         width: 100%;
     }
     .newsletter .email button{
+        margin-top: 6px !important;
         width: 100%;
     }
     .fs-3{
@@ -240,7 +242,7 @@ header .nav-link:hover{
 }
 @media screen and (max-width:768px) {
     .banner{
-        background: url(../img/banner3.gif);
+        background: linear-gradient(rgba(32, 11, 73, 0.3),rgba(53, 20, 121, 0.3)),url(../img/banner6.gif);
         width: 100%;
         height: 690px;
         background-size: 100% 100%;
@@ -272,6 +274,16 @@ header .nav-link:hover{
    
 }
 @media screen and (max-width:576px) {
+    .banner .lastrow .dis{
+        display: none;
+    }
+    .banner button{
+        width: 110px;
+        font-size: 15px;
+    }
+    .banner .container {
+        width: 93%;
+    }
     .banner .container form .searchdiv{
         top:317px !important;
     }
@@ -294,6 +306,13 @@ header .nav-link:hover{
     .but{
         width: 100%;
     }
+    .newsletter{
+        padding-top: 15px !important;
+        background-image: linear-gradient(rgba(32, 11, 73, 0.3),rgba(53, 20, 121, 0.6)),url(../img/newsletter.jpg);
+        background-size: 100% 100%;
+        width: 100%;
+        height: auto;
+    }
 }
 @media screen and (max-width:406px) {
     .lastrow {
@@ -307,27 +326,15 @@ header .nav-link:hover{
     }
 }
 @media screen and (max-width:380px) {
-    .banner button{
-        width: 110px;
-        font-size: 15px;
-    }
     .banner .container form .searchdiv{
-        top:312px !important;
+        top:310px !important;
     }
-}
-@media screen and (max-width:367px) {
-    .banner .lastrow .dis{
-        display: none;
-    }
-    .banner .container form .searchdiv{
-        top:312px !important;
-    }
-}
-@media screen and (max-width:350px) {
     .banner button{
         width: 100px;
         font-size: 15px;
     }
+}
+@media screen and (max-width:350px) {
     .block{
         height: 130px;
         width: 130px;
@@ -336,12 +343,15 @@ header .nav-link:hover{
     .fun .row>*{
         padding-right: 0px;
     } 
-}
-@media screen and (max-width:321px) {
     .banner button{
         width: 90px;
         font-size: 13px;
     }
+    .banner .container form .searchdiv{
+        top:308px !important;
+    }
+}
+@media screen and (max-width:321px) {
     .block{
         height: 120px;
         width: 120px;
@@ -350,10 +360,19 @@ header .nav-link:hover{
     .banner .container form .searchdiv{
         top:307px !important;
     }
-}
-@media screen and (max-width:290px) {
     .banner button{
-        width: 80px;
+        width: 80px ;
+    }
+    .banner .icons{
+        display: none;
+    }
+}
+@media screen and (max-width:291px) {
+    .banner .span{
+        font-size: 10px;
+    }
+    .banner button{
+        font-size: 10px;
     }
     .nav-link {
         padding: 10px 0px;
