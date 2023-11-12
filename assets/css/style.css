@@ -4,7 +4,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    transition: all 0.6s ease !important;
+    transition: all 0.3s ease !important;
 }
 
 /* header starts------------------------------------------------------------------------------------------------------ */
@@ -156,12 +156,32 @@ header .nav-link:hover{
     margin: 6px 0px;
 }
 .arrow{
- display: none;
+    visibility: hidden;
 }
 .image:hover .arrow{
-    display: block !important;
+    visibility: visible;
     background-color: hsl(0, 0%, 0%,0.9);
     cursor: pointer;
+}
+/* footer starts ------------------------------------------------------------------------------------------------------ */
+footer{
+    background-image: linear-gradient(rgb(0,0,0,0.9),rgb(0,0,0,0.9)),url(../img/departure.jpeg);
+    width: 100%;min-height: 300px;
+    background-size: 100% 100%;
+}
+footer .bottom{
+    margin-bottom: 0px;
+}
+footer .bottom li{
+    padding-right: 21px;
+    cursor: pointer;
+    font-weight: 600;
+}
+footer  li:hover{
+    color: #fff !important;
+}
+footer .bottom li:hover{
+    color: #fff;
 }
 /* ============================================== RESPONSIVE DIMENSIONS =============================================== */
 /* ==================================================================================================================== */
@@ -221,7 +241,9 @@ header .nav-link:hover{
         padding-top: 20px;
         font-size: calc(1.1rem + .6vw)!important;
     }
-    
+    footer .bottom li{
+        padding-right: 11px;
+    }
 }
 @media screen and (max-width:992px) {
     .myrow{
@@ -238,6 +260,15 @@ header .nav-link:hover{
     }
     .but{
         width: 85.5%;
+    }
+    footer{
+        background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url(../img/flight.jpg);
+        background-size: 100% 100%;
+        width: 100%;height: auto;
+    }
+    footer .bottom li{
+        padding-right: 4px;
+        font-size: 14px !important;
     }
 }
 @media screen and (max-width:768px) {
@@ -271,7 +302,9 @@ header .nav-link:hover{
     }
     #link{display: none;}
     #end{float: inline-end;}
-   
+    .blog .col-md-8{
+        width: 90% !important;
+    }
 }
 @media screen and (max-width:576px) {
     .banner .lastrow .dis{
@@ -312,6 +345,11 @@ header .nav-link:hover{
         background-size: 100% 100%;
         width: 100%;
         height: auto;
+    }
+    footer{
+        background:  linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url(../img/departure1.jpeg);
+        background-size: 100% 100%;
+        width: 100%;height: auto;
     }
 }
 @media screen and (max-width:406px) {
