@@ -14,7 +14,7 @@
 .text-green{
     color: #7EE73F;
 }
-.text-orange{
+.text-orange1{
     color: #DF523C !important;
 }
 header .nav-link:hover{
@@ -48,9 +48,6 @@ header .nav-link:hover{
 .banner .content2 form input{
     border-radius: 2px;
 }
-/* .banner .content2 form input[type="date"]::placeholder{
-    display: none !important;
-} */
 .banner .content2 .form-control {
     padding:0.375rem 0.10rem;
 }
@@ -158,6 +155,27 @@ header .nav-link:hover{
     color: #fff;
 }
 
+/* blog-------------------------------------------------------------------------------------------------------------- */
+.imgs1{
+    background: url(../img/blog.jpg);
+    width: 100%;min-height: 120%;
+    background-size: 100% 100%;
+}
+.imgs1:hover{
+    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url(../img/blog.jpg);
+    width: 100%;min-height: 120%;
+    background-size: 100% 100%;
+}
+.imgs2{
+    background: url(../img/mom.jpg);
+    width: 100%;min-height: 120%;
+    background-size: 100% 100%;
+}
+.imgs2:hover{
+    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url(../img/mom.jpg);
+    width: 100%;min-height: 120%;
+    background-size: 100% 100%;
+}
 .blog hr{
     margin: 6px 0px;
 }
@@ -195,9 +213,9 @@ footer .bottom li:hover{
     .coliseum{
         display: none;
     }
-    .image:hover .arrow{
+    /* .image:hover .arrow{
         display: none !important;
-    }
+    } */
 }
 @media screen and (max-width:1200px) {
     .heading{
@@ -315,7 +333,7 @@ footer .bottom li:hover{
         width: 90% !important;
     }
 }
-@media screen and (max-width:576px) {
+@media screen and (max-width:575px) {
     .banner .lastrow .dis{
         display: none;
     }
@@ -355,6 +373,12 @@ footer .bottom li:hover{
         width: 100%;
         height: auto;
     }
+    .blog .img-fluid{
+        height: 373px;
+    }
+    .pb-3{
+        padding-bottom: 5rem !important;
+    }
     footer{
         background:  linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url(../img/departure1.jpeg);
         background-size: 100% 100%;
@@ -370,6 +394,9 @@ footer .bottom li:hover{
      }
      .banner .container form .searchdiv{
         top:312px !important;
+    }
+    .blog .img-fluid{
+        height: 250px;
     }
 }
 @media screen and (max-width:380px) {
