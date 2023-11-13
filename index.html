@@ -87,11 +87,11 @@
                   <button class="nav-link text-light rounded-0 active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
                     <i class="fa-solid fa-plane-departure"></i><span class="icons"> Flights</span></button>
                 </li>
-                <li class="nav-item" role="presentation">
+                <li class="nav-item pill" role="presentation">
                   <button class="nav-link text-light  rounded-0" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
                     <i class="fa-solid fa-shop"></i> <span class="icons">Hotels</span></button>
                 </li>
-                <li class="nav-item" role="presentation">
+                <li class="nav-item pill" role="presentation">
                   <button class="nav-link text-light  rounded-0" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
                     <i class="fa-solid fa-car"></i><span class="icons"> Cars</span></button>
                 </li>
@@ -103,27 +103,29 @@
                     <form action="">
                         <div class="row g-1">
                             <div class="col-sm-6 col-md-2" style="display: flex;">
-                                <input type="text" class="form-control" placeholder="Enter Origin City" style="font-size: 15px;">
-                                <span id="link"><i class="fa-solid fa-link" style="color: #5fd3d1;font-size: 10px;margin-left: 3px;"></i></span>
+                                <input type="text" class="form-control " placeholder=" &#xf3c5; Enter Origin City" style="font-size: 14.6px;font-family:'Roboto', sans-serif,FontAwesome;">
+                                <span id="link"><i class="fa-solid fa-link" style="color: #5fd3d1;font-size: 10px;margin-left: 4px;"></i></span>
                             </div>
                             <div class="col-sm-6 col-md-2">
-                                <input type="text" class="form-control" placeholder="Enter Destination City"
-                                style="font-size: 15px;">
-                            </div>
-                            <div class="col-sm-6 col-md-2">
-                                <input type="date" class="form-control" style="font-size: 15px;"
-                                aria-label="">
+                                <input type="text" class="form-control " placeholder=" &#xf3c5; Enter Destination City"
+                                style="font-size: 14.6px;font-family:'Roboto', sans-serif,FontAwesome;">
                             </div>
                             <div class="col-sm-6 col-md-2">
                                 <input type="date" class="form-control" style="font-size: 15px;"
                                 aria-label="">
                             </div>
                             <div class="col-sm-6 col-md-2">
-                                <select class="form-select" aria-label="Default select example" style="font-size: 13px;">
-                                    <option selected>1 Passenger</option>
-                                    <option value="1">2 Passenger</option>
-                                    <option value="2">3 Passenger</option>
-                                    <option value="3">More</option>
+                                <input type="date" class="form-control" style="font-size: 15px;"
+                                aria-label="">
+                            </div>
+                            <div class="col-sm-6 col-md-2">
+                                <select class="form-select" aria-label="Default select example" 
+                                style="font-size: 13px;font-family:'Roboto', sans-serif,FontAwesome;color: #7a7c80;">
+                                <option value="" disabled selected hidden>&#xf500; 1 Passenger</option>
+                                    <option value="1">1 Passenger</option>
+                                    <option value="2"> 2 Passenger</option>
+                                    <option value="3"> 3 Passenger</option>
+                                    <option >More</option>
                                   </select>
                             </div>
                             <div class="col-sm-6 col-md-2 position-absolute end-0 bottom-50 top-0 searchdiv" >
@@ -148,8 +150,8 @@
                                             <option>First</option>
                                         </select>
                                     </span>
-                                   <span class="span"> &nbsp;&nbsp; Direct Flights Only &nbsp;&nbsp;&#9744;</span>
-                                   <span class="span"> &nbsp;&nbsp;Include nearly airports &nbsp;&nbsp;&#9744;</span>
+                                   <span class="span" id="span"> &nbsp;&nbsp; Direct Flights Only &nbsp;&nbsp;&#9744;</span>
+                                   <span class="span" id="span"> &nbsp;&nbsp;Include nearly airports &nbsp;&nbsp;&#9744;</span>
                             </div>
                             </div>
                         </div>
@@ -179,37 +181,37 @@
         <div class="row myrow">
             <div class="col-lg-2 col-md-4 col-6">
                 <div class="py-3 px-2 my-2 mx-0 text-center block" id="end">
-                    <i class="fa-solid fa-person-biking" style="color: #ffffff;font-size: 44px;margin-bottom: 15px;"></i>
+                    <i class="fa-solid fa-person-biking" style="color: #ffffff;font-size: 44px;margin-bottom: 15px;margin-top: 10px;"></i>
                      <br><b>5670M</b> <br>CYCLING TRACK <br>
                 </div>
             </div>
             <div class="col-lg-2 col-md-4 col-6">
                 <div class="py-3 px-2 my-2 mx-0 text-center block" >
-                    <i class="fa-solid fa-route" style="color: #ffffff;font-size: 44px;margin-bottom: 15px;"></i>
+                    <i class="fa-solid fa-route" style="color: #ffffff;font-size: 44px;margin-bottom: 15px;margin-top: 10px;"></i>
                     <br><b>480 M</b> <br>DISTANCE COVERED <br>
                 </div>
             </div>
             <div class="col-lg-2 col-md-4 col-6">
                 <div class="py-3 px-2 my-2 mx-0 text-center block" id="end">
-                    <i class="fa-solid fa-person-hiking" style="color: #ffffff;font-size: 44px;margin-bottom: 15px;"></i>
+                    <i class="fa-solid fa-person-hiking" style="color: #ffffff;font-size: 44px;margin-bottom: 15px;margin-top: 10px;"></i>
                     <br><b>5670M</b> <br>ALTITUDE HIKED <br>
                 </div>
             </div>
             <div class="col-lg-2 col-md-4 col-6">
                 <div class="py-3 px-2 my-2 mx-0 text-center block" >
-                    <i class="fa-solid fa-sailboat" style="color: #ffffff;font-size: 44px;margin-bottom: 15px;"></i>
+                    <i class="fa-solid fa-sailboat" style="color: #ffffff;font-size: 44px;margin-bottom: 15px;margin-top: 10px;"></i>
                     <br><b>180 M</b> <br>SAILING DISTANCE <br>
                 </div>
             </div>
             <div class="col-lg-2 col-md-4 col-6">
                 <div class="py-3 px-2 my-2 mx-0 text-center block" id="end">
-                    <i class="fa-solid fa-mountain-sun" style="color: #ffffff;font-size: 44px;margin-bottom: 15px;"></i>
+                    <i class="fa-solid fa-mountain-sun" style="color: #ffffff;font-size: 44px;margin-bottom: 15px;margin-top: 10px;"></i>
                     <br><b>570 DAYS</b> <br>SPEND ADVENTURE <br>
                 </div>
             </div>
             <div class="col-lg-2 col-md-4 col-6">
                 <div class="py-3 px-2 my-2 mx-0 text-center block" >
-                    <i class="fa-solid fa-tree" style="color: #ffffff;font-size: 44px;margin-bottom: 15px;"></i>
+                    <i class="fa-solid fa-tree" style="color: #ffffff;font-size: 44px;margin-bottom: 15px;margin-top: 10px;"></i>
                     <br><b>567 M</b> <br>JUNGLE DISTANCE <br>
                 </div>
             </div>
@@ -224,7 +226,7 @@
         <div class="row">
             <div class="col-md-10 col-sm-12 col-lg-7  ms-auto text-center">
                 <p class="fs-3">SUBSCRIBE FOR OUR TRAVEL NEWSLETTERS</p>
-                <p class="fs-6">Join our community of over 3000,000 global rwaders who receive emails filled with news,
+                <p class="fs-6">Join our community of over 3000,000 global readers who receive emails filled with news,
                     promotions, and other good stuff from G Adventures.
                 </p>
                 <p class="email border-0"><input type="email" class="bg-transparent" 
@@ -268,7 +270,7 @@
                 <div class="card border-3  mb-5 mx-4 mx-sm-0" style="height: 90%;">
                     <img src="./assets/img/3.jpg" class="card-img-top">
                     <div class="card-body">
-                        <h6 class="card-title fw-bold"><span class="text-orange">$1099</span>Greek Islands 9-Night Vacation w/Air. 
+                        <h6 class="card-title fw-bold"><span class="text-orange">$1099</span> Greek Islands 9-Night Vacation w/Air. 
                             <span class="text-orange"> Save $1060</span></h6>
                             <p class="card-text">This is the lowest price we've seen in four years for a nine-night   </p>
                     </div>
@@ -278,7 +280,7 @@
                 <div class="card border-3  mb-5 mx-4 mx-sm-0" style="height: 90%;">
                     <img src="./assets/img/4.jpg" class="card-img-top">
                     <div class="card-body">
-                        <h6 class="card-title fw-bold"><span class="text-orange">$899</span>Ireland & Germany 6-Night Adventure w/Air.
+                        <h6 class="card-title fw-bold"><span class="text-orange">$899</span> Ireland & Germany 6-Night Adventure w/Air.
                             <span class="text-orange"> Save $1060</span></h6>
                         <p class="card-text">This is the lowest price we've seen in four years for a nine-night</p>
                     </div>
@@ -314,7 +316,7 @@
                 <div class="card border-3  mb-5 mx-4 mx-sm-0" style="height: 90%;">
                     <img src="./assets/img/7.jpg" class="card-img-top">
                     <div class="card-body">
-                        <h6 class="card-title fw-bold"><span class="text-orange">$2299</span>New Zealand: Multi-city Trip w/Tour & Car Restal 
+                        <h6 class="card-title fw-bold"><span class="text-orange">$2299</span> New Zealand: Multi-city Trip w/Tour & Car Restal 
                             <span class="text-orange"> Save $250</span></h6>
                             <p class="card-text">This is the lowest price we've seen in four years for a nine-night   </p>
                     </div>
@@ -355,7 +357,7 @@
                             <option value="Trip">Trip</option>
                             <option value="Other">Other</option>
                         </select>
-                        <input type="text" class="col-lg-2 col-sm-5 col-12 p-2 m-1 border-0" placeholder="Travel Date">
+                        <input type="text" class="col-lg-2 col-sm-5 col-12 p-2 m-1 border-0" placeholder="Travel Date                  &#xf073;" style="font-family: 'Roboto', sans-serif,FontAwesome;">
                         <input type="text" class="col-lg-2 col-sm-5 col-12 p-2 m-1 border-0" placeholder="Number of people">
                         <input type="text" class="col-lg-2 col-sm-5 col-12 p-2 m-1 border-0" placeholder="Your Email">
                         <button  class="px-4 p-2 m-1 bg-warning border-0 but">CALCULATE NOW</button>

@@ -12,7 +12,7 @@
     background-color: #161638 !important;
 }
 .text-green{
-color: #7EE73F;
+    color: #7EE73F;
 }
 .text-orange{
     color: #DF523C !important;
@@ -39,7 +39,7 @@ header .nav-link:hover{
     padding-left: 29px;
     }
 .banner .nav-item .active{
-    background-color: #DB1457;
+    background-color: #e02161;
     border-radius: 0px;
 }
 .banner button{
@@ -48,6 +48,12 @@ header .nav-link:hover{
 .banner .content2 form input{
     border-radius: 2px;
 }
+/* .banner .content2 form input[type="date"]::placeholder{
+    display: none !important;
+} */
+.banner .content2 .form-control {
+    padding:0.375rem 0.10rem;
+}
 .banner .content2 form select{
     border-radius: 2px;
 }
@@ -55,21 +61,21 @@ header .nav-link:hover{
     margin-bottom: 0px !important;
 }
 .banner .nav-item {
-    background-color: #421f57;
+    background-color: #411f57;
     margin: 2px;
 }
-.banner .nav-item :hover{
-    background-color: #DB1457;
+.banner .pill:hover{
+    background-color: #e02161;
 }
 .bg-pink{
-    background-color: #DB1457;
+    background-color: #e02161;
 }
 .banner .content2 {
-    background-color: hsl(300, 78%, 18%,0.73);
+    background-color: hsla(276, 78%, 18%, 0.73);
     border-radius: 2px;
 }
 .banner .content2:hover {
-    background-color: hsl(300, 78%, 18%,0.8);}
+    background-color: hsl(276, 78%, 18%,0.8);}
 .banner .row>* {
     padding-left: 2px;
     padding-right: 2px;
@@ -129,7 +135,7 @@ header .nav-link:hover{
     background-color: #161638;
 }
 .text-orange{
-    color: rgb(243, 185, 60)
+    color: rgb(226, 160, 37) !important;
 }
 .destination .card:hover{
     background-color: hsla(0, 0%, 100%, 0.7);
@@ -207,6 +213,9 @@ footer .bottom li:hover{
     .banner .container form .search{
         border-radius: 0px !important;
         width: 90%;
+    }
+    .banner #span{
+        padding-top: 9px;
     }
     .banner .container form .searchdiv{
         top:44px !important;
