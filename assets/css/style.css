@@ -79,7 +79,6 @@ header .nav-link:hover{
 }
 .banner .content2 form .date::placeholder{
     text-align-last: justify;
-    word-spacing: 9px;
  }
 .banner .search:hover{
     background-color: hsl(255, 38%, 49%,0.7);
