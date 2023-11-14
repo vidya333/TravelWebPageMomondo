@@ -154,8 +154,9 @@ header .nav-link:hover{
 .estimate .but:hover{
     color: #fff;
 }
-.estimate .date::placeholder{
-    text-align-last: justify;
+.banner .content2 form .date::placeholder{
+   text-align-last: justify;
+   word-spacing: 9px;
 }
 /* blog-------------------------------------------------------------------------------------------------------------- */
 .imgs1{
