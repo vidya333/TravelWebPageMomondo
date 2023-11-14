@@ -77,7 +77,10 @@ header .nav-link:hover{
     padding-left: 2px;
     padding-right: 2px;
 }
-
+.banner .content2 form .date::placeholder{
+    text-align-last: justify;
+    word-spacing: 9px;
+ }
 .banner .search:hover{
     background-color: hsl(255, 38%, 49%,0.7);
 }
@@ -154,9 +157,8 @@ header .nav-link:hover{
 .estimate .but:hover{
     color: #fff;
 }
-.banner .content2 form .date::placeholder{
-   text-align-last: justify;
-   word-spacing: 9px;
+.estimate .date::placeholder{
+    text-align-last: justify;
 }
 /* blog-------------------------------------------------------------------------------------------------------------- */
 .imgs1{
