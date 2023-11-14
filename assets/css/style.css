@@ -154,7 +154,9 @@ header .nav-link:hover{
 .estimate .but:hover{
     color: #fff;
 }
-
+.estimate .date::placeholder{
+    text-align-last: justify;
+}
 /* blog-------------------------------------------------------------------------------------------------------------- */
 .imgs1{
     background: url(../img/blog.jpg);
@@ -205,6 +207,18 @@ footer  li:hover{
     color: #fff !important;
 }
 footer .bottom li:hover{
+    color: #fff;
+}
+.sites li:hover{
+    cursor: pointer;
+    color: grey !important;
+}
+.logo2{transition: all 0.9s ease !important;}
+.logo2:hover{
+    transform: rotate(90deg);
+}
+.iconlist .ic:hover{color: #fff !important;}
+.done:hover{
     color: #fff;
 }
 /* ============================================== RESPONSIVE DIMENSIONS =============================================== */
